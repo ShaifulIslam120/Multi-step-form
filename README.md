@@ -22,6 +22,12 @@ A modern, responsive multi-step form built with Next.js, React Hook Form, Zod, a
 
 1. Clone the repository:
 bash
+
+
 git clone <repository-url>
+
+
 npm install
+
+
 npm run dev
