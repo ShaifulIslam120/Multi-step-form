@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Multi-step Form
+
+A modern, responsive multi-step form built with Next.js, React Hook Form, Zod, and TailwindCSS.
+
+## Features
+
+- Multi-step form validation
+- Real-time form validation
+- Responsive design
+- Form data persistence
+- API submission simulation
+- Modern UI with animations
+- TypeScript support
+- Dark mode support
+
+## Prerequisites
+
+- Node.js 18.17 or later
+- npm or yarn
 
 ## Getting Started
 
-First, run the development server:
-
-```bash
+1. Clone the repository:
+git clone <repository-url>
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Trae AI
+Here's a complete guide for your multi-step form project:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+README.md
+Apply
+# Multi-step FormA modern, responsive multi-step form built with Next.js, React Hook Form, Zod, and TailwindCSS.## Features- Multi-step form validation- Real-time form validation- Responsive design- Form data persistence- API submission simulation- Modern UI with animations- TypeScript support- Dark mode support## Prerequisites- Node.js 18.17 or later- npm or yarn## Getting Started1. Clone the repository:```bashgit clone <repository-url>
+Install dependencies:
+bash
+Run
+npm install
+Run the development server:
+bash
+Run
+npm run dev
+Open http://localhost:3000 in your browser.
+Project Structure
+plaintext
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+src/├── app/│   ├── globals.css│   ├── layout.tsx│   └── page.tsx├── components/│   ├── forms/│   │   ├── AccountStep.tsx│   │   ├── AddressStep.tsx│   │   ├── PersonalInfoStep.tsx│   │   └── Summary.tsx│   ├── MultiStepForm.tsx│   └── Providers.tsx├── context/│   └── FormContext.tsx├── lib/│   ├── api.ts│   └── validationSchema.ts
+Technologies Used
+Next.js 14
+React Hook Form
+Zod Validation
+TailwindCSS
+TypeScript
+React Query
+Next Themes
+Form Steps
+Personal Information
 
-## Learn More
+Full Name
+Email
+Phone Number
+Address Details
 
-To learn more about Next.js, take a look at the following resources:
+Street Address
+City
+ZIP Code
+Account Setup
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Username
+Password
+Password Confirmation
+Summary
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Review all information
+Submit form
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
